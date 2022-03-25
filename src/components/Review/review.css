@@ -1,0 +1,14 @@
+.review{
+    text-align: center;
+}
+
+.review-head{
+    color: #8D448B;
+    font-weight: bold;
+}
+
+
+.review-comment{
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+}

@@ -1,0 +1,43 @@
+.support{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-top:4rem;
+    padding-bottom:4rem;
+}
+
+.support-left{
+    padding:2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.support-left-head{
+    font-size: 2.5rem;
+
+}
+.support-left-subhead{
+    font-size: 1.2rem;
+    color:#343D48;
+}
+
+.gray{
+    color:gray;
+}
+.support-right{
+    display: flex;
+    justify-content: center;    
+}
+
+/* MEDIA QUERIES  */
+@media only screen and (max-width: 768px) {
+    .support{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+    }
+    .support-right{
+        height:320px;
+    }
+  }

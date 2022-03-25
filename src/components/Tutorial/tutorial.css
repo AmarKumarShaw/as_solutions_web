@@ -1,0 +1,41 @@
+.tutorial{
+    text-align: center;
+    padding-top:4rem;
+    padding-bottom:4rem;
+}
+
+.tutorial-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:1.5rem;
+}
+.tutorial-container{
+    padding-top:1rem;
+}
+.tutorial-container h4{
+    font-size: 1.2rem;
+    padding: 0;
+}
+
+.tutorial-container-img img{
+    border-radius: 10px;
+}
+
+
+
+
+/* MEDIA QUERIES  */
+@media only screen and (max-width: 768px) {
+    .tutorial{
+        padding-left:1rem;
+        padding-right:1rem;
+    }
+    .tutorial-section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+   
+  }
